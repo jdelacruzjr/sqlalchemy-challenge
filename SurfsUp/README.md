@@ -28,7 +28,7 @@ In addition to using Python, SQLAlchemy to perform climate analysis and explore 
 
  ![precipitation](Images/Precipitation_Plot.png)
 
-############## JD - left off here at 6:38 am on Apr 10
+############## JD - left off here at 6:56 am on Apr 10
 
 ### Notes & References:
 
