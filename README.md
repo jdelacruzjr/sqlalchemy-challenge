@@ -3,15 +3,15 @@
 ![olympic_surfer.png](SurfsUp/Images/olympic_surfer.png)
 ## Background
 
-This repository is designed to provide a climate analysis of Honolulu, Hawaii to help people better prepare for their vacation or trip there.
+This repository is designed to provide a climate analysis of Honolulu, Hawaii to help surfers (and people) better prepare for their vacation or trip there.
 
 This project is broken up into 2 parts: 
-- Climate Analysis & Exploration, for which Python and SQLAlchemy were utilized to explore and analyze data from the climate database provided.  
+- Analysis & Exploration of the Hawaiian Climate, for which Python and SQLAlchemy were utilized to explore and analyze the climate dataset provided.  
 - Visual & Interactive Presentation of the data analyzed, for which a Flask API APP was created in order to present the data findings in a dynamic and customized approach.
 
-## 1. Climate (Precipitation & Weather Station) Analysis & Exploration
+## Step 1 - Climate Analysis & Exploration (of Precipitation & Weather Stations)
 
-In addition to using Python, SQLAlchemy to perform climate analysis and explore the data from the given dataset, the following analyses were completed using SQLAlchemy ORM queries, Pandas, and Matplotlib. The complete climate anlysis jupyter notebook file can be found [here](climate_ipynb), and the SQLAlchemy file is provided [here]; JD create a link to [hawaii.sqlite](Resources/hawaii.sqlite).
+In addition to using Python, SQLAlchemy to perform climate analysis and explore the data from the given dataset, the following analyses were completed using SQLAlchemy ORM queries, Pandas, and Matplotlib. The complete climate anlysis jupyter notebook file can be found [here](SurfsUp/climate.ipynb), and the SQLAlchemy file is provided [here]; JD create a link to [hawaii.sqlite](SurfsUp/Resources/hawaii.sqlite).
 
 * SQLAlchemy engine created `create_engine` to connect to the sqlite database. ` engine = create_engine("sqlite:///Resources/hawaii.sqlite") 
 `inspector = inspect(engine)`
@@ -26,7 +26,7 @@ In addition to using Python, SQLAlchemy to perform climate analysis and explore 
 
 * Then, the result was plotted by using the DataFrame `plot` method. The plot looks as follows:
 
- ![precipitation](Images/Precipitation_Plot.png)
+ ![precipitation](SurfsUp/Images/Precipitation_Plot.png)
 
  ### <a name="Station_Analysis"></a> Station Analysis
 
@@ -34,7 +34,7 @@ In addition to using Python, SQLAlchemy to perform climate analysis and explore 
 
 * A query is created to retrieve the last 12 months of temperature observation data (TOBS) and filter by the station with the highest number of observations. The Plot for the results as a histogram with `bins=12` were created and it looks as follows. 
 
-![station-histogram](Images/station_Plot.png)
+![station-histogram](SurfsUp/Images/station_Plot.png)
 - - -
 
 ## <a name="Step_2_Climate_App"></a> Step 2 - Climate App
@@ -73,8 +73,6 @@ After the initial analysis was completed, a Flask API was designed based on the 
   * When given the start only, calculate `TMIN`, `TAVG`, and `TMAX` for all dates greater than and equal to the start date.
 
   * When given the start and the end date, calculate the `TMIN`, `TAVG`, and `TMAX` for dates between the start and end date inclusive.
-
-############## JD - left off here at 6:56 am on Apr 10
 ### Notes & References:
 
   I created this shareable link to my repository <https://github.com/jdelacruzjr/sqlalchemy-challenge.git> and submitted it to <https://bootcampspot-v2.com>
