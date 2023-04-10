@@ -1,6 +1,6 @@
 # Python and SQLAlchemy Surfs Up Challenge to Explore Climate Data
 
-![olympic_surfer.png](Images/olympic_surfer.png)
+![olympic_surfer.png](SurfsUp/Images/olympic_surfer.png)
 ## Background
 
 This repository is designed to provide a climate analysis of Honolulu, Hawaii to help people better prepare for their vacation or trip there.
@@ -79,5 +79,7 @@ After the initial analysis was completed, a Flask API was designed based on the 
 
   I created this shareable link to my repository <https://github.com/jdelacruzjr/sqlalchemy-challenge.git> and submitted it to <https://bootcampspot-v2.com>
 ### Copyright
+
+Surf Images © 2019 World Surf League.
 
 Trilogy Education Services © 2023. All Rights Reserved.
