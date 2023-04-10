@@ -41,7 +41,7 @@ In addition to using Python, SQLAlchemy to perform climate analysis and explore 
 
 After the initial analysis was completed, a Flask API was designed based on the queries already previously run in step 1.
 
-* The following routes are created by using Flask. To look and run the code click the following link:[app.py](app.py)
+* The following routes are created by using Flask. To look and run the code click the following link:[app.py](SurfsUp/app.py)
 
 ### <a name="Routes"></a> Routes
 
