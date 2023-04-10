@@ -34,7 +34,7 @@ In addition to using Python, SQLAlchemy to perform climate analysis and explore 
 
 * A query is created to retrieve the last 12 months of temperature observation data (TOBS) and filter by the station with the highest number of observations. The Plot for the results as a histogram with `bins=12` were created and it looks as follows. 
 
-![station-histogram](SurfsUp/Images/station_Plot.png)
+![station-histogram](SurfsUp/Images/Station_Plot.png)
 - - -
 
 ## <a name="Step_2_Climate_App"></a> Step 2 - Climate App
